@@ -5,7 +5,7 @@ frontend:
           - npm install
       test:
         commands:
-          - npm test
+          - npm test && npm run build
     artifacts:
       baseDirectory: build
       files:
