@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest",
-    "test:upSnap": "jest --updateSnapshot"
+    "test:upSnap": "jest --updateSnapshot",
+    "cypress": "cypress open"
   },
   "dependencies": {
     "@types/node": "18.15.3",

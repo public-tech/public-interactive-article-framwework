@@ -2,9 +2,7 @@
 const nextConfig = {
   output: 'standalone',
   experimental: {
-    appDir: true,
-    outputStandalone: true,
-
+    appDir: true
   },
 }
 
