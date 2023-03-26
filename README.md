@@ -1,4 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PUBLICS Interactive Article framework
+
+## Introduction 
+
+This is a template repository for building interavtive and engageing articles for modile, tablet and web. 
+
+## Article outline 
+
+A plain text version of the article goes here
+
+## Tech Stack 
+
+This framework is built using:
+
+- [Next.js](https://nextjs.org/)
+- Tailwind
+- Jest 
+- Cypress 
+- AWS Amplify
 
 ## Getting Started
 
@@ -6,10 +24,6 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -22,17 +36,26 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Testing 
 
-To learn more about Next.js, take a look at the following resources:
+To run unit tests: 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm test 
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+To run end-to-end tests: 
 
-## Deploy on Vercel
+```bash
+npm run e2e
+# in headless mode
+npm run e2e:headless
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To run component tests: 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+npm run component
+# in headless mode
+npm run component:headless
+```
