@@ -2,9 +2,9 @@
 
 ## Introduction 
 
-This is a template repository for building interavtive and engageing articles for modile, tablet and web. 
+This is a template repository for building interactive and engaging articles for mobile, tablet and web. 
 
-## Article outline 
+## Article Outline 
 
 A plain text version of the article goes here
 
