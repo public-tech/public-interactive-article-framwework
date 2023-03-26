@@ -1,0 +1,15 @@
+test:
+  phases:
+    preTest:
+      commands:
+        - npm install
+    test:
+      commands:
+        - npm test
+  artifacts:
+    baseDirectory: build
+    files:
+      - "**/*"
+  cache:
+    paths:
+      - node_modules/**/*
