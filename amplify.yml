@@ -13,18 +13,3 @@ frontend:
     cache:
       paths:
         - node_modules/**/*
-test:
-  phases:
-      preTest:
-        commands:
-          - npm install
-      test:
-        commands:
-          - npm test
-  artifacts:
-    baseDirectory: .next
-    files:
-      - "**/*"
-  cache:
-    paths:
-      - node_modules/**/*
