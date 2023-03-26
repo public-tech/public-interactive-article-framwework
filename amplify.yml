@@ -13,3 +13,11 @@ frontend:
     cache:
       paths:
         - node_modules/**/*
+test:
+  phases:
+      preTest:
+        commands:
+          - npm install
+      test:
+        commands:
+          - npm test
